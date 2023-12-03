@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      height: 100vh;
+      padding: 0;
+      margin: 0;
+      background-color: rgb(182, 220, 238);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .qrCode{ 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 70vh;
+      margin: 20px;
+      width: 50vw;
+      max-width: 350px;
+      background-color: white;
+      border-radius: 20px;
+    }
+    .image{
+      border-radius: 20px;
+      height: 300px;
+      width: 300px;
+    }
+    .text{
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+    }
+    .txt{
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Elly Okoth</a>.
+  </div>
+  <div class="qrCode">
+    <img src="images/image-qr-code.png" class="image">
+    <p class="text">Improve your front-end 
+      <br> skills by building projects</p>
+    <p class="txt">Scan the QR code to visit Frontend 
+      <br> Mentor and take your coding skills to 
+      <br> the next level</p>
+  </div>
+</body>
+</html>
